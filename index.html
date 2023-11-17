@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatbot</title>
+</head>
+
+<body>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="Robbin"
+    agent-id="c1042307-04c7-4fd8-a59c-ba0b7f8675b5"
+    language-code="pt-br"
+    expand 
+  ></df-messenger>
+  
+    <style>
+        df-messenger {
+            --df-messenger-bot-message: #E6E6FA;
+            --df-messenger-button-titlebar-color: #2F9FF8;
+            --df-messenger-chat-background-color: #fafafa;
+            --df-messenger-font-color: black;
+            --df-messenger-send-icon: #2F9FF8;
+            --df-messenger-user-message: #2F9FF8  ;
+            
+
+
+            @media(max-width: 768px) {
+                margin: 0;
+                position: relative;
+            }
+
+        }
+    </style>
+</body>
